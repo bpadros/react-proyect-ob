@@ -1,5 +1,5 @@
 /**
- * Ejemplo para entener el suo de props.cildren
+ * Ejemplo para entener el uso de props.cildren
  * 
  */
 

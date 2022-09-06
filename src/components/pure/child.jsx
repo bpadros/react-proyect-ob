@@ -24,8 +24,10 @@ const Child = ({name , send ,update}) => {
         <div style={{background: 'cyan' ,padding:'30px'}}>
             <p onMouseOver={()=>console.log('on mouse over')}>Hello , {name}</p>
             <button onClick={()=>console.log('boton 1 pulsado')}>BOTON 1</button>
+
             <button onClick={pressButton}>BOTON 2</button>
             <button onClick={()=>pressButtonParams('Hello')}>BOTON 3</button>
+            
             <input 
             placeholder='insert a text'
             ref={messageRef}

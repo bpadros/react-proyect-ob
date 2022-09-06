@@ -6,9 +6,13 @@ import './App.css';
 // import Ejemplo2 from './hooks/Ejemplo2';
 // import MiComponenteConContexto from './hooks/Ejemplo3';
 // import Ejemplo from './hooks/Ejemplo';
-// import TaskListComponent from './components/container/task_list';
+import TaskListComponent from './components/container/task_list';
+import AsyncExample from './components/pure/AsyncExample';
+import AxiosExample from './components/pure/AxiosExample';
+import FetchExample from './components/pure/FetchExample';
+import ObservableExample from './components/pure/ObservableExample';
 // import LoginFormik from './components/pure/forms/loginFormik';
-import RegisterFormik from './components/pure/forms/registerFormik';
+// import RegisterFormik from './components/pure/forms/registerFormik';
 // import Greeting from './components/pure/greeting';
 // import GreetingF from './components/pure/greetingF';
 // import Father from './components/container/father.jsx'
@@ -41,7 +45,13 @@ return (
 
 {/*Ejemplos de usos de formik y yup */}
 {/* <LoginFormik></LoginFormik> */}
-<RegisterFormik></RegisterFormik>
+{/* <RegisterFormik></RegisterFormik> */}
+
+{/*Ejemplos de procesos asincroncos */}
+{/* <AsyncExample></AsyncExample> */}
+{/* <ObservableExample></ObservableExample> */}
+{/* <FetchExample></FetchExample> */}
+<AxiosExample></AxiosExample>
 
      {/*Proyecto final */}
      {/* <TaskListComponent></TaskListComponent> */}
